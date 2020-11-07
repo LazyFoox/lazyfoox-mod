@@ -1,0 +1,6 @@
+type: material
+name: compressed titanium
+description: A strong or weak amour.
+hardness: 5
+cost: 2
+color: "7B7B7B"

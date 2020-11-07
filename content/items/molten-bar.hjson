@@ -1,0 +1,6 @@
+type: material
+name: molten bar
+description: A hard thick bar.
+hardness: 2
+cost: 2
+color: ffffff
