@@ -1,0 +1,40 @@
+{
+    "type": "Revenant",
+    "name": "fluffy revs",
+    "description": "A high altitude long range light weight bomber, which shoots slow projectiles, that explode after a specific time.",
+
+    "flying": true,
+    "rotateWeapon": false,
+
+    "range": 500,
+    "attackLength": 185, 
+
+    "baseRotateSpeed": 0.06,
+    "rotatespeed": 0.1,
+    "speed": 0.50,
+    "hitsize": 10,
+    "health": 5000,
+    "drag": 0.5,
+
+    "weapon": {
+        "roundrobin": false,
+        "length": 0,
+        "width": 0,
+        "velocityRnd": 0,
+        "reload": 50,
+        "bullet": {
+            "keepVelocity": false,
+            "drag": 0.002,
+            "type": "ArtilleryBulletType",
+            "damage": 500,
+            "splashDamage": 200,
+            "splashDamageRadius": 100,
+            "despawnEffect": "shockwave",
+            "bulletWidth": 5,
+            "bulletHeigth": 20,
+            "speed": 6.2,
+            "lifetime": 30,
+            "homingRange": 150
+        }
+    }
+}
