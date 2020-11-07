@@ -1,0 +1,15 @@
+name: compressed draug factory drone
+description: stop reading.
+type: UnitFactory
+unitType: fluffy-draug
+size: 2
+produceTime: 350
+consumes: {
+  power: 0.5
+}
+category: units
+research: draug-factory
+requirements: [
+  silicon/40
+  titanium/20
+]

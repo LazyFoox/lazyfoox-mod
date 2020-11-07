@@ -1,0 +1,11 @@
+name: fluffy wall
+description: A wall made of fluffy. Not particularly useful or interesting.
+type: Wall
+health: 5500
+size: 1
+requirements: [
+  copper/2
+  lead/5
+]
+category: defense
+research: copper-wall

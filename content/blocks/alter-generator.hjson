@@ -1,0 +1,28 @@
+type: SingleTypeGenerator
+name: alter geneator
+description: useful using generator.
+size: 2
+hasPower: true
+hasItems: true
+itemDuration: 30
+powerProduction: 20
+consumes: {
+    liquid: {
+      liquid: slag
+      amount: .1
+  }
+  items: {
+    items: [
+      coal/1
+    ]
+
+    optional: true
+  }
+}
+requirements: [
+  metaglass/80
+  silicon/60
+  compressed-titanium/20
+]
+category: power
+research: combustion-generator

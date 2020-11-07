@@ -1,0 +1,32 @@
+{
+	"name": "compressed Quantum Projector",
+	"description": "It need phase to start.",
+	"type": "OverdriveProjector",
+	"health": 640,
+	"size": 2,
+	"range": 200,
+	"phaseBoost": 0.5,
+    "phaseRangeBoost": 90,
+	"speedBoost": 5,
+	"consumes":{
+	    "power": 1.0,
+        	"items": {
+			"items": [
+				{ "item": "phase-fabric", "amount": 1}
+				
+			],
+			"booster":true,
+		}
+},
+    
+	"requirements": [
+		{ "item": "copper", "amount": 50},
+		{ "item": "plastanium", "amount":60},
+		{ "item": "silicon", "amount":70}
+		{ "item": "compressed-titanium", "amount":20}
+		
+	],
+	"boost":true,
+	"category": "effect",
+	"research": "overdrive-projector"
+}

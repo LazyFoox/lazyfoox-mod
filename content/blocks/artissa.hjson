@@ -1,0 +1,55 @@
+type: DoubleTurret
+name: Artissa
+description: a sniper.. but more secure
+health: 200
+size: 2
+reload: 4
+range: 250
+ammoUseEffect: shellEjectSmall
+inaccuracy: 3
+rotatespeed: 15
+ammo: {
+  
+  silicon: {
+    speed: 15
+    damage: 30
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+  lead: {
+    speed: 15
+    damage: 20
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+  scrap: {
+    speed: 15
+    damage: 20
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+  copper: {
+    speed: 15
+    damage: 15
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+}
+requirements: [
+  lead/40
+  copper/50
+]
+category: turret
+research: duo

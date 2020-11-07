@@ -1,0 +1,86 @@
+type: itemTurret
+name: Riple
+description: "[red] heh."
+health: 1200
+size: 2
+shots: 5
+reload: 15
+range: 250
+ammoUseEffect: shellEjectSmall
+inaccuracy: 3
+rotatespeed: 18
+shootSound: shootBig
+ammo: {
+  graphite: {
+    speed: 10
+    damage: 100
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+    hitEffect: hitBulletBig
+    frontColor: 000000
+    backColor: 000000
+    trailColor: "e5edff"
+    homingPower: 5
+    homingrange: 16
+    bulletSprite: lazyfoox-mod-skystrike
+  }
+  silicon: {
+    speed: 10
+    damage: 150
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+    hitEffect: hitBulletBig
+    frontColor: 000000
+    backColor: 000000
+    trailColor: "e5edff"
+    homingPower: 5
+    homingrange: 16
+    bulletSprite: lazyfoox-mod-skystrike
+  }
+  thorium: {
+    speed: 10
+    damage: 175
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+    hitEffect: hitBulletBig
+    frontColor: 000000
+    backColor: 000000
+    trailColor: "e5edff"
+    homingPower: 5
+    homingrange: 16
+    bulletSprite: lazyfoox-mod-skystrike
+  }
+  surge-alloy: {
+    speed: 10
+    damage: 250
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+    hitEffect: hitBulletBig
+    frontColor: 000000
+    backColor: 000000
+    trailColor: "e5edff"
+    homingPower: 5
+    homingrange: 16
+    bulletSprite: lazyfoox-mod-skystrike
+  }
+}
+requirements: [
+  thorium/20
+  copper/5
+  silicon/12
+  lead/50
+]
+category: turret
+research: fearless

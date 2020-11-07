@@ -1,0 +1,14 @@
+type: Conveyor
+name: Compressed conveyor
+description: a better conveyor
+health: 120
+requirements: [
+  titanium/1
+  copper/1
+  lead/1
+  compressed-titanium/1
+  molten-bar/1
+]
+category: distribution
+speed: 0.45
+research: titanium-conveyor

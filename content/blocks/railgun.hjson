@@ -1,0 +1,82 @@
+type: ArtilleryTurret
+name: RailGun
+description: "[red] Big turrets. large. long range."
+health: 6000000
+size: 8
+reload: 50
+range: 1000
+ammoUseEffect: shellEjectBig
+inaccuracy: 3
+rotatespeed: 5
+shootSound: shootBig
+recoil: 10
+lifetime: 50000000000000000000000
+shootcone: 80
+ammo: {
+  graphite: {
+    speed: 100
+    damage: 100
+    bulletWidth: 17
+    bulletHeight: 19
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 5
+  }
+  silicon: {
+    speed: 200
+    damage: 150
+    bulletWidth: 17
+    bulletHeight: 19
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 5
+  }
+  thorium: {
+    speed: 300
+    damage: 175
+    bulletWidth: 17
+    bulletHeight: 19
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 5
+  }
+  surge-alloy: {
+    speed: 400
+    damage: 250
+    bulletWidth: 17
+    bulletHeight: 19
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 5
+  }
+  molten-bar: {
+    speed: 600
+    damage: 500
+    bulletWidth: 17
+    bulletHeight: 19
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 5
+  }
+  compressed-titanium: {
+    speed: 700
+    damage: 9999
+    bulletWidth: 17
+    bulletHeight: 19
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 5
+    
+  }
+}
+requirements: [
+  thorium/50
+  copper/70
+  silicon/50
+  surge-alloy/50
+  lead/50
+  molten-bar/100
+  compressed-titanium/500
+]
+category: turret
+research: fearless

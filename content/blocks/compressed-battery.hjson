@@ -1,0 +1,13 @@
+{
+    "type": "battery",
+    "name": "compressed battery",
+    "size": 1
+    "category": "power",
+    "requirements": [
+        {"item": "titanium", "amount": 90},
+        {"item": "copper", "amount": 250},
+        {"item": "silicon", "amount": 105}
+    ],
+    "consumes": 
+            { "powerBuffered": 50000 }
+}

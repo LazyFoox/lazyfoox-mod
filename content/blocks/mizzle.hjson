@@ -1,0 +1,45 @@
+type: ArtilleryTurret
+name: mizzle
+description: "[red] Missile turret"
+health: 1200
+size: 3
+reload: 15
+shots: 5
+shootCone: 100
+range: 1000
+ammoUseEffect: shellEjectSmall
+inaccuracy: 3
+rotatespeed: 18
+maxAmmo: 60
+shootSound: missile
+hitSound: explosion
+ammo: {
+  graphite: {
+    type: MissileBulletType
+    splashDamage: 10
+    plashDamageRadius: 20
+    speed: 10
+    damage: 100
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 50
+    hitEffect: explosion
+    frontColor: FF9C5A
+    backColor: FF9C5A
+    trailColor: "#EC7458"
+    homingPower: 5
+    homingrange: 1
+    bulletSprite: lazyfoox-mod-skystrike
+    hitShake: 0.25
+  }
+}
+requirements: [
+  thorium/50
+  copper/70
+  silicon/50
+  lead/50
+]
+category: turret
+research: fearless

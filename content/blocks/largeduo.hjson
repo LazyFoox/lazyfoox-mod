@@ -1,0 +1,36 @@
+type: DoubleTurret
+name: Large Duo
+description: jokes turret
+health: 50000
+size: 8
+reload: 4
+range: 100
+ammoUseEffect: shellEjectSmall
+inaccuracy: 30
+rotatespeed: 12
+ammo: {
+  lead: {
+    speed: 10
+    damage: 15
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+  copper: {
+    speed: 10
+    damage: 10
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+}
+requirements: [
+  silver/40
+  copper/70
+]
+category: turret
+research: duo

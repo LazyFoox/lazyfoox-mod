@@ -1,0 +1,33 @@
+type: mendProjector
+name: Compressed Mender
+description: This mender-type defense block is designed to be used in the back of a line of defense due to its range. It's not particularly strong but it's a nice addition to have, especially on bigger maps.
+category: effect
+itemCapacity: 20
+consumes: {
+  power: {
+    usage: 12
+  }
+  items: {
+    items: [
+      phase-fabric/1
+    ]
+    booster: true
+    optional: true
+  }
+}
+size: 4
+reload: 100
+range: 300
+healPercent: 20
+color: defff1
+phase: ffdda0
+phaseBoost: 0.5
+phaseRangeBoost: 90
+useTime: 120
+research: mend-projector
+requirements: [
+    copper/50
+    silicon/50
+    metaglass/10
+    lead/26
+]

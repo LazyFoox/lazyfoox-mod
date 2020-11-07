@@ -1,0 +1,15 @@
+name: Compressed vault
+description: large store a lot in there.
+type: Vault
+itemCapacity: 49000
+hasItems: true
+health: 25000
+size: 3
+requirements: [
+  molten-bar/20
+  titanium/60
+  thorium/40
+  compressed-titanium/10
+]
+category: effect
+research: vault

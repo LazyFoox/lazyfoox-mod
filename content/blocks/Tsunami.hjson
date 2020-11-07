@@ -1,0 +1,63 @@
+{
+	"type": "LiquidTurret",
+	"name": "Tsunami",
+	"description": "A larger more advance version of wave turret, ejects liquids further and stronger",
+	"health": 1000,
+	"size": 4,
+	"reload": 2,
+	"range": 180,
+	"recoil": 2,
+	"shootShake": 1,
+	"ammoUseEffect": "none",
+	"inaccuracy": 3,
+	"shots": 3,
+	"spread": 8,
+	"rotatespeed": 12,
+	"activeSound": "spray",
+	"hasLiquids": true,
+	"ammo": {
+	 "water": {
+	        "type":"LiquidBulletType",
+	        "drag": 0.03,
+	        "speed": 12,
+	        "knockback": 0.5,
+	        "liquid": "water"
+	        "bulletSprite": "thorge-ex-spray",
+	      }
+	      
+	 "slag":  {
+	        "type":"LiquidBulletType",
+	        "drag": 0.08,
+	        "speed": 12,
+	        "knockback": 0.1,
+	        "damage": 2,
+	        "liquid": "slag",
+	      },
+	      
+	 "cryofluid":  {
+	        "type":"LiquidBulletType",
+	        "drag": 0.01,
+	        "speed": 12,
+	        "knockback": 0.3,
+	        "liquid": "cryofluid"
+	      }
+	     
+	 "oil":  {
+	        "type":"LiquidBulletType",
+	        "drag": 0.07,
+	        "speed": 12,
+	        "knockback": 0.2,
+	        "liquid": "oil"
+	      }   
+	      
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 300 },
+		{ "item": "graphite", "amount": 300 },
+		{ "item": "thorium", "amount": 200 },
+		{ "item": "metaglass", "amount": 350 },
+		{ "item": "silicon", "amount": 350 },
+	],
+	"category": "turret",
+	"research": "wave"
+}

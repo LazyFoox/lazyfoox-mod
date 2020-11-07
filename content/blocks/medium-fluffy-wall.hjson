@@ -1,0 +1,11 @@
+name: medium fluffy wall
+description: A wall made of fluffy. but.. medium.
+type: Wall
+health: 7600
+size: 2
+requirements: [
+  copper/50
+  lead/10
+]
+category: defense
+research: fluffy-wall

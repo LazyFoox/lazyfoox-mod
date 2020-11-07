@@ -1,0 +1,28 @@
+type: LaserTurret
+name: Spectircal phase
+description: "[red] Danger."
+shootType: meltdownLaser
+shootEffect: shootBigSmoke2
+shootCone: 5
+recoil: 4
+range: 150
+size: 3
+shootShake: 2
+reload: 2
+firingMoveFract: 0.5
+shootDuration: 100
+powerUse: 14
+shootSound: laserbig
+activeSound: beam
+chargeBeginEffect: lancerLaserChargeBegin
+chargeEffects: 7
+activeSoundVolume: 2
+health: 2300
+requirements: [
+  thorium/50
+  copper/70
+  silicon/20
+  lead/50
+]
+category: turret
+research: meltdown

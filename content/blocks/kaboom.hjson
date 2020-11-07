@@ -1,0 +1,47 @@
+type: DoubleTurret
+name: Sniker turret
+description: this mostly pain.
+health: 1020
+size: 3
+reload: 10
+range: 150
+ammoUseEffect: shellEjectSmall
+inaccuracy: 3
+rotatespeed: 18
+ammo: {
+  silicon: {
+    speed: 10
+    damage: 120
+    bulletWidth: 7
+    bulletHeight: 12
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+  graphite: {
+    speed: 10
+    damage: 150
+    bulletWidth: 7
+    bulletHeight: 12
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+  thorium: {
+    speed: 10
+    damage: 160
+    bulletWidth: 7
+    bulletHeight: 12
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+}
+requirements: [
+  thorium/50
+  copper/70
+  silicon/20
+  lead/50
+]
+category: turret
+research: blast-fear

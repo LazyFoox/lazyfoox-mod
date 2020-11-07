@@ -1,0 +1,27 @@
+type: ImpactReactor
+name: Particle Accelerator
+description: Smashes Copper together hard enough to make fusion
+itemCapacity: 60
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: true
+warmupSpeed: .001
+itemDuration: 60
+powerProduction: 167
+consumes: {
+  power: 50
+  items: {
+    items: [
+      copper/1
+    ]
+    optional: true
+  }
+}
+requirements: [
+  copper/200
+  silicon/100
+  lead/150
+]
+category: power
+research: impact-reactor

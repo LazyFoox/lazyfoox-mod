@@ -1,0 +1,15 @@
+{
+    "type": "SolarGenerator",
+    "name": "compressed Solar pannel",
+    "description": "We can't see the sun in mindustry so this is magic",
+    "size": 3,
+    "hasPower": true,
+    "powerProduction": 500
+    "requirements": [
+        { "item": "lead", "amount": 40 },
+        { "item": "silicon", "amount": 30 },
+        { "item": "thorium", "amount": 15 },
+    ],
+    "category": "power",
+    "research": "solar-panel-large"
+}

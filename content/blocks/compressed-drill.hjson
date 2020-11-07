@@ -1,0 +1,24 @@
+name: Compressed drill
+description: A very strange drill.
+type: Drill
+size: 3
+tier: 7
+drillTime: 2
+consumes: {
+    power: 3
+    liquid: {
+        liquid: water
+        amount: 0.01,
+        booster: true,
+        optional: true
+        }
+    }
+itemCapacity: 1000000
+requirements: [
+  silicon/40
+  graphite/20
+  compressed-titanium/20
+  molten-bar/50
+]
+category: production
+research: laser-drill

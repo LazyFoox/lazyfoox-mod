@@ -1,0 +1,32 @@
+type: PowerTurret
+name: A12 Laser
+description: Shoots a beam of light to eradicate enemies.
+health: 2500
+category: turret
+size: 4
+reload: 60
+shootCone: 1
+rotateSpeed: 5
+targetAir: true
+targetGround: true
+range: 170
+powerUse: 2
+shootDuration: 50
+recoil: 1
+shots: 1
+chargeMaxDelay: 25
+chargeTime: 25
+chargeEffects": 7
+heatColor: color.red 
+smokeEffect: lancerLaserShootSmoke
+shootEffect: lancerLaserShoot
+chargeBeginEffect: lancerLaserChargeBegin
+damage: 200
+shootSound: laserbig
+shootType: lancerLaser
+requirements: [
+  metaglass/500
+  lead/250
+  titanium/100
+]
+research: better

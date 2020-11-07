@@ -1,0 +1,28 @@
+type: LaserTurret
+name: horizion
+description: "[red] Danger."
+shootType: meltdownLaser
+shootEffect: shootBigSmoke2
+shootCone: 40
+recoil: 4
+range: 250
+size: 4
+shootShake: 2
+reload: 1
+firingMoveFract: 0.5
+shootDuration: 220
+powerUse: 14
+shootSound: laserbig
+activeSound: beam
+chargeBeginEffect: lancerLaserChargeBegin
+chargeEffects: 7
+activeSoundVolume: 2
+health: 3200
+requirements: [
+  thorium/50
+  copper/70
+  silicon/20
+  lead/50
+]
+category: turret
+research: meltdown

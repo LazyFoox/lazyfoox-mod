@@ -1,0 +1,49 @@
+type: DoubleTurret
+name: fearless
+description: "[red]An fearless. Will hurt deep enough"
+health: 520
+size: 2
+reload: 10
+range: 150
+ammoUseEffect: shellEjectSmall
+inaccuracy: 3
+rotatespeed: 12
+shootSound: shootBig
+
+ammo: {
+  copper: {
+    speed: 20
+    damage: 5
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+  graphite: {
+    speed: 20
+    damage: 100
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+  thorium: {
+    speed: 20
+    damage: 200
+    bulletWidth: 7
+    bulletHeight: 15
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+}
+requirements: [
+  lead/40
+  thorium/50
+  copper/70
+  silicon/50
+]
+category: turret
+research: duo

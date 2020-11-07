@@ -1,0 +1,46 @@
+type: DoubleTurret
+name: Alpha sniper
+description: a sniper..
+health: 200
+size: 1
+reload: 4
+range: 200
+ammoUseEffect: shellEjectSmall
+inaccuracy: 3
+rotatespeed: 15
+ammo: {
+  
+  silicon: {
+    speed: 15
+    damage: 30
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+  lead: {
+    speed: 15
+    damage: 20
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+  copper: {
+    speed: 15
+    damage: 15
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+}
+requirements: [
+  lead/40
+  copper/70
+]
+category: turret
+research: duo

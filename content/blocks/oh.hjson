@@ -1,0 +1,65 @@
+type: DoubleTurret
+name: Spector
+description: spectre but more
+health: 1020
+size: 1
+reload: 10
+range: 170
+ammoUseEffect: shellEjectSmall
+inaccuracy: 3
+shootSound: shootBig
+rotatespeed: 18
+ammo: {
+  graphite: {
+    speed: 10
+    damage: 100
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+  silicon: {
+    speed: 10
+    damage: 150
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+  thorium: {
+    speed: 10
+    damage: 250
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+  molten-bar: {
+    speed: 10
+    damage: 280
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+  compressed-titanium: {
+    speed: 10
+    damage: 350
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+}
+requirements: [
+  thorium/50
+  copper/70
+  lead/50
+]
+category: turret
+research: spectre

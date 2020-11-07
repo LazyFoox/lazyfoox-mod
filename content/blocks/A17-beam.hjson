@@ -1,0 +1,33 @@
+type: PowerTurret
+name: A12 Beam
+description: Shoots a beam of light to eradicate enemies. big.
+health: 2500
+category: turret
+size: 4
+reload: 60
+shootCone: 1
+rotateSpeed: 5
+targetAir: true
+targetGround: true
+range: 170
+powerUse: 2
+shootDuration: 50
+recoil: 1
+shots: 5
+chargeMaxDelay: 25
+chargeTime: 25
+chargeEffects: 7
+heatColor: color.red 
+smokeEffect: lancerLaserShootSmoke
+shootEffect: lancerLaserShoot
+chargeBeginEffect: lancerLaserChargeBegin
+damage: 250
+shootSound: shotgun
+shootType: lancerLaser
+requirements: [
+  metaglass/50
+  lead/250
+  titanium/10
+  silicon/50
+]
+research: Gekko

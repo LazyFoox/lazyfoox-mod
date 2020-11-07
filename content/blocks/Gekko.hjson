@@ -1,0 +1,33 @@
+type: PowerTurret
+name: Gekko
+description: lancer but 2 shoots
+health: 900
+category: turret
+size: 2
+reload: 60
+shootCone: 1
+rotateSpeed: 5
+targetAir: true
+targetGround: true
+range: 170
+powerUse: 5
+shootDuration: 50
+recoil: 1
+shots: 2
+chargeMaxDelay: 25
+chargeTime: 25
+chargeEffects": 7
+heatColor: color.red 
+smokeEffect: lancerLaserShootSmoke
+shootEffect: lancerLaserShoot
+chargeBeginEffect: lancerLaserChargeBegin
+damage: 200
+shootSound: laser
+shootType: lancerLaser
+requirements: [
+  metaglass/50
+  lead/60
+  copper/ 20
+  titanium/100
+]
+research: better

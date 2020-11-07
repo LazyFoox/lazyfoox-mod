@@ -1,0 +1,28 @@
+type: GenericSmelter
+name: Shadow forge
+description: Combines shadow coal and titanium.
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      titanium/2
+      coal/2
+    ]
+  }
+}
+requirements: [
+  lead/50
+  thorium/5
+  silicon/10
+]
+category: crafting
+research: pulverizer
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: night-titanium/2

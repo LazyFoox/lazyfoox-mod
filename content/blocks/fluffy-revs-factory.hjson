@@ -1,0 +1,22 @@
+name: fluffy revs factory drone
+description: stop reading. please 
+type: UnitFactory
+unitType: fluffy-revs
+size: 2
+produceTime: 350
+consumes: {
+  power: 0.5
+  items: {
+    items: [
+    silicon/5
+    titanium/10
+    ]
+  }
+}
+category: units
+research: draug-factory
+requirements: [
+  silicon/40
+  titanium/20
+  plastanium/10
+]

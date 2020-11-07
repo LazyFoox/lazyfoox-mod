@@ -1,0 +1,29 @@
+type: PowerTurret
+name: aslium
+description: A turret capable of striking air targets with an electric discharge.
+health: 585
+size: 3
+category: turret
+shootType: arc
+chargeTime: 10
+chargeMaxDelay: 24
+reload: 15
+damage: 30
+range: 190
+shootCone: 30
+heatColor: CCFFFF
+ammoUseEffect: none
+inaccuracy: 9.2
+rotatespeed: 7
+recoil: 1
+powerUse: 9.4
+hasPower: true
+targetAir: true
+targetGround: true
+shootSound: flame
+cooldown: 0.01
+requirements: [
+  titanium/10
+  silicon/15
+  lead/5
+]
