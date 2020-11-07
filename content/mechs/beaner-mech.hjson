@@ -1,0 +1,27 @@
+name: "Dark machinel"
+description: "A large ship with a array of missiles."
+speed: 1
+drillPower: 10
+mineSpeed: 50
+drag: 0.07
+mass: 500
+buildPower: 10.0
+engineOffset: 6.75
+engineColor: "feb380"
+flying: true
+health: 5000
+cellTrnsY: 1
+itemCapacity: 100
+weaponOffsetX: 5.75,
+weapon: {
+    name: beaner-missile
+    bullet: lightning
+    lifetime: 1000
+    speed: 1
+    splashDamageRadius: 10
+    splashDamage: 50
+    frontColor: FF9C5A
+    backColor: "EC7458"
+    homingPower: 2
+    homingRange: 20
+}
