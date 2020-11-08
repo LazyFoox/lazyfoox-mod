@@ -1,7 +1,7 @@
 name: medium fluffy wall
 description: A wall made of fluffy. but.. medium.
 type: Wall
-health: 7600
+health: 22520
 size: 2
 requirements: [
   copper/50
