@@ -1,5 +1,5 @@
 name: "Lazyfoox-mod"
-displayName: "[orange]LazyFoox [red]Mod" //what displays in the mod selection menu
+displayName: "[orange]LazyFoox [red]Mod"
 author: "[red]La[orange]zy[red]Fo[orange]ox"
 description: "[red](BETA)
 [white]extra vanilla fun.
@@ -14,5 +14,5 @@ description: "[red](BETA)
 [orange]redstonneur1256
 [sky]RTomega
 [yellow]Kimtaeco"
-version: "1.8"
+version: "1.8.1"
 minGameVersion: "103"
