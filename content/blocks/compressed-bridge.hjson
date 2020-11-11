@@ -1,0 +1,15 @@
+type: ItemBridge
+name: compressed bridge
+description: "heh. nice bridge"
+range: 50
+transportTime: 0
+hasPower: False
+Requirements: [
+   compressed-titanium/2
+   molten-bar/5
+   silicon/5
+   copper/10
+   lead/15
+]
+category: distribution
+research: bridge-conveyor

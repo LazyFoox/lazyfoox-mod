@@ -1,0 +1,22 @@
+type: SolidPump
+name: "compressed water extractor"
+description: "more."
+liquidCapacity: 50
+size: 2
+rotarySpeed: 0.50
+consumes: {
+  power: 3
+}
+requirements: [
+  lead/10
+  graphite/10
+  copper/5
+  compressed-titanium/50
+  molten-bar/20
+]
+outputLiquid: {
+  liquid: water
+  amount: 15
+}
+category: production
+research: water-extractor

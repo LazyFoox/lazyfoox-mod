@@ -1,0 +1,15 @@
+type: PowerNode
+size: 2
+health: 1000
+name: compressed node
+description:the ultimate energy transmitting tech
+category: power
+laserRange:50
+maxNodes:1000
+requirements: [
+  lead/10
+  graphite/10
+  copper/5
+  compressed-titanium/5
+  molten-bar/2
+]
