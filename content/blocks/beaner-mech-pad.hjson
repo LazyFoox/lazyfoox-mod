@@ -1,7 +1,7 @@
-name: beaner Mech Pad
-description: Transform into the beaner mech.
+name: darkpelt Mech Pad
+description: Transform into the darkpelt mech.
 type: MechPad
-mech: beaner-mech
+mech: darkpelt
 size: 2
 consumes: {
   power: 0.7
