@@ -1,4 +1,4 @@
-name: "Dark machinel"
+name: "Darkpelt"
 description: "A large ship with a array of missiles."
 speed: 1
 drillPower: 10
@@ -14,7 +14,7 @@ cellTrnsY: 1
 itemCapacity: 100
 weaponOffsetX: 5.75,
 weapon: {
-    name: beaner-missile
+    name: darkpelt-missile
     bullet: lightning
     lifetime: 1000
     speed: 1
