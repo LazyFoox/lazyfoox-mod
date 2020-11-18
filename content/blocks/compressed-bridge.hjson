@@ -4,7 +4,7 @@ description: "heh. nice bridge"
 range: 50
 transportTime: 0
 hasPower: False
-Requirements: [
+requirements: [
    compressed-titanium/2
    molten-bar/5
    silicon/5
